@@ -24,7 +24,7 @@ FPS = 60             # 帧率设置
 
 class SunCounter:  # 阳光计数器类
     def __init__(self):
-        self.sun = 100             # 初始阳光值
+        self.sun = 1000000             # 初始阳光值
         self.last_update = pygame.time.get_ticks()  # 最后更新时间戳
         self.interval = 1000       # 阳光生成间隔（毫秒）
 
